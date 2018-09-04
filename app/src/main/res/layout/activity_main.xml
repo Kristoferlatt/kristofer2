@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/motorcycle_dude"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#ff6e73"
+            android:id="@+id/nupp1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Mootorattad"
+            android:textColor="#ff6e73"
+            android:id="@+id/nupp2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/nupp1"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Müük"
+            android:textColor="#ff6e73"
+            android:id="@+id/nupp3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/nupp2"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Pildid"
+            android:textColor="#ff6e73"
+            android:id="@+id/nupp4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/nupp3"
+            />
+
+        <Button
+            android:id="@+id/nupp5"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/TOP3"
+            android:textColor="#ff6e73"
+            android:layout_below="@id/nupp4"/>
+    </RelativeLayout>
+</ScrollView>
